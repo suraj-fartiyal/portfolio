@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suraj Singh - Senior QA Automation Engineer Portfolio. Specialized in Java, Selenium, API Testing, Performance Testing, and CI/CD pipelines. Ready for new opportunities.">
+  <title>Suraj Singh | Senior QA Automation Engineer</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-text">SURAJ</span><span class="logo-dot">.</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link active">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#accomplishments" class="nav-link">Accomplishments</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+          <!-- Light Mode Icon (Sun) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <!-- Dark Mode Icon (Moon) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge-container">
+          <span class="badge badge-glow">QA Automation Lead</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Suraj Singh</span>
+        </h1>
+        <p class="hero-subtitle">
+          Ensuring flawless software releases through custom test automation pipelines, robust API verification, and performance engineering. Over 4 years of refining quality.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="assets/Suraj_Singh_QA_Resume.pdf" class="btn btn-secondary" download>
+            <span>Download CV</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <div class="image-border-glow">
+          <div class="image-wrapper">
+            <img src="assets/avatar.png" alt="Suraj Singh - QA Automation Engineer" class="profile-img">
+          </div>
+        </div>
+        <div class="floating-badge badge-1">
+          <span class="badge-dot green"></span>
+          <span>Selenium WebDriver Specialist</span>
+        </div>
+        <div class="floating-badge badge-2">
+          <span class="badge-dot blue"></span>
+          <span>4+ Yrs Exp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Summary Dashboard -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="stat-info">
+            <h3 class="stat-number">40% +</h3>
+            <p class="stat-label">Coverage Boosted</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <div class="stat-info">
+            <h3 class="stat-number">50%</h3>
+            <p class="stat-label">QA Overhead Reduced</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="stat-info">
+            <h3 class="stat-number">4+ Yrs</h3>
+            <p class="stat-label">Automation Engineering</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 2 18 2 18 6 6 6 6 2"/><rect width="14" height="14" x="5" y="6" rx="2"/><path d="M9 16h6"/><path d="M9 12h6"/></svg>
+          </div>
+          <div class="stat-info">
+            <h3 class="stat-number">Zero</h3>
+            <p class="stat-label">Post-Release Escapes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section section-padding" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title"><span class="gradient-text">About Me</span></h2>
+        <p class="section-subtitle">A brief overview of my engineering philosophy and journey.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text-card">
+          <p>
+            I am a results-driven QA Automation Engineer with over 4 years of experience in designing, building, and executing robust automation frameworks. Specialized in <strong>Java-Selenium WebDriver</strong>, <strong>API testing</strong>, and <strong>CI/CD pipeline integration</strong>.
+          </p>
+          <p>
+            My engineering philosophy centers around shifting testing left: catching errors early by implementing smart automation in CI/CD, creating highly reliable mock environments for API validation, and scaling performance/load testing scripts. I have successfully driven defect reduction and validated complex transactional software in EdTech, cybersecurity, and enterprise collaboration domains.
+          </p>
+          <div class="location-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Haldwani, Uttarakhand, India (Open to Remote / Hybrid / Relocation)</span>
+          </div>
+        </div>
+        <div class="domain-focus-card">
+          <h3 class="domain-title">Industry Domains & Projects</h3>
+          <div class="domains-list">
+            <div class="domain-item">
+              <div class="domain-icon">📚</div>
+              <div class="domain-details">
+                <h4>EdTech / E-Commerce</h4>
+                <p>Careers360: Automated testing for the College Predictor engine, transactional flows, and deep-link validations.</p>
+              </div>
+            </div>
+            <div class="domain-item">
+              <div class="domain-icon">🛡️</div>
+              <div class="domain-details">
+                <h4>Cybersecurity</h4>
+                <p>Data Resolve: Automation framework, REST APIs, and database validations for SEG & InDefend Advanced Servers.</p>
+              </div>
+            </div>
+            <div class="domain-item">
+              <div class="domain-icon">👥</div>
+              <div class="domain-details">
+                <h4>Collaboration Systems</h4>
+                <p>Radiansys: Scaled BDD-Selenium test coverage for Simpplr’s rich-text document editors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Skills Section -->
+  <section class="skills-section section-padding" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title"><span class="gradient-text">Skills Dashboard</span></h2>
+        <p class="section-subtitle">Explore my technical stack. Click category pills to highlight specific toolsets.</p>
+      </div>
+
+      <div class="skills-filter-container">
+        <button class="filter-pill active" data-filter="all">All Skills</button>
+        <button class="filter-pill" data-filter="languages">Languages</button>
+        <button class="filter-pill" data-filter="automation">Automation & QA</button>
+        <button class="filter-pill" data-filter="devops">CI/CD & DevOps</button>
+        <button class="filter-pill" data-filter="db">Databases & Systems</button>
+      </div>
+
+      <div class="skills-grid-container">
+        <!-- Languages -->
+        <div class="skill-category-card" data-category="languages">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">Java <span class="tag-level">Expert</span></div>
+            <div class="skill-tag">JavaScript <span class="tag-level">Intermediate</span></div>
+            <div class="skill-tag">SQL <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">HTML5 / CSS3 <span class="tag-level">Intermediate</span></div>
+            <div class="skill-tag">JSON / XML <span class="tag-level">Expert</span></div>
+          </div>
+        </div>
+
+        <!-- Automation & QA -->
+        <div class="skill-category-card" data-category="automation">
+          <h3>Automation & QA</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">Selenium WebDriver <span class="tag-level">Expert</span></div>
+            <div class="skill-tag">Cucumber BDD <span class="tag-level">Expert</span></div>
+            <div class="skill-tag">TestNG / JUnit <span class="tag-level">Expert</span></div>
+            <div class="skill-tag">Postman (API) <span class="tag-level">Expert</span></div>
+            <div class="skill-tag">JMeter (Performance) <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">POM (Page Object Model) <span class="tag-level">Expert</span></div>
+            <div class="skill-tag">REST Assured (API) <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">Maven / Gradle <span class="tag-level">Strong</span></div>
+          </div>
+        </div>
+
+        <!-- CI/CD & DevOps -->
+        <div class="skill-category-card" data-category="devops">
+          <h3>CI/CD & DevOps</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">Jenkins CI/CD <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">GitLab CI <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">Git / GitHub <span class="tag-level">Expert</span></div>
+            <div class="skill-tag">Apache Airflow <span class="tag-level">Basic</span></div>
+          </div>
+        </div>
+
+        <!-- Databases & Systems -->
+        <div class="skill-category-card" data-category="db">
+          <h3>Databases & Systems</h3>
+          <div class="skill-tags">
+            <div class="skill-tag">PostgreSQL <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">MySQL <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">Linux / Bash <span class="tag-level">Intermediate</span></div>
+            <div class="skill-tag">Android / iOS QA <span class="tag-level">Strong</span></div>
+            <div class="skill-tag">Windows Server <span class="tag-level">Intermediate</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Timeline -->
+  <section class="experience-section section-padding" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title"><span class="gradient-text">Professional Journey</span></h2>
+        <p class="section-subtitle">An interactive view of my full-time roles and key contributions.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Job 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content card">
+            <div class="job-card-header">
+              <div>
+                <span class="company-tag">Careers360</span>
+                <h3 class="role-title">QA Automation Engineer</h3>
+              </div>
+              <div class="period-badge">Feb 2026 – Present</div>
+            </div>
+            <div class="project-line">Project Focus: College Predictor Engine (Web, Android, iOS)</div>
+            <ul class="job-bullets">
+              <li>Designed and executed automation test cases for core selection, registration, and payment flows.</li>
+              <li>Tested multi-exam counselling selection flows, dynamic form fields, and dependent taxonomy dropdowns.</li>
+              <li>Validated end-to-end payment gateway integrations including failure/retry cases and status transitions.</li>
+              <li>Conducted API testing using <strong>Postman</strong> for the prediction engine and UTM tracking endpoints.</li>
+              <li>Executed backend database testing in <strong>PostgreSQL</strong> to verify logs and user transactions.</li>
+            </ul>
+            <div class="tech-badges">
+              <span>Postman</span>
+              <span>PostgreSQL</span>
+              <span>Jira</span>
+              <span>Mobile QA</span>
+              <span>Payment Gateways</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content card">
+            <div class="job-card-header">
+              <div>
+                <span class="company-tag">Radiansys Technologies</span>
+                <h3 class="role-title">QA Engineer</h3>
+              </div>
+              <div class="period-badge">Mar 2025 – Feb 2026</div>
+            </div>
+            <div class="project-line">Project Focus: Tip Tap Rich Text Editor (Client: Simpplr Inc.)</div>
+            <ul class="job-bullets">
+              <li>Developed and scaled UI automation frameworks using <strong>Java</strong> and <strong>Selenium WebDriver</strong>.</li>
+              <li>Implemented the <strong>Cucumber BDD framework</strong> to enable behavior-driven business validations.</li>
+              <li>Performed visual component quality control based on Figma prototypes with high precision.</li>
+              <li>Configured and integrated test execution into <strong>Jenkins CI/CD automation pipelines</strong>.</li>
+            </ul>
+            <div class="tech-badges">
+              <span>Java</span>
+              <span>Selenium</span>
+              <span>Cucumber BDD</span>
+              <span>Jenkins CI/CD</span>
+              <span>Figma QA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content card">
+            <div class="job-card-header">
+              <div>
+                <span class="company-tag">Data Resolve Technologies</span>
+                <h3 class="role-title">QA Engineer</h3>
+              </div>
+              <div class="period-badge">Apr 2021 – Sep 2024</div>
+            </div>
+            <div class="project-line">Project Focus: SEG & InDefend Cybersecurity Servers</div>
+            <ul class="job-bullets">
+              <li>Built and optimized TestNG frameworks in Java, reducing regress-test iteration overhead by 50%.</li>
+              <li>Engineered custom REST API regression collections using variables, mock APIs, and scripts in <strong>Postman</strong>.</li>
+              <li>Conducted performance, stress, and load testing using <strong>Apache JMeter</strong> to identify concurrency bottlenecks.</li>
+              <li>Created automated database triggers and assertion scripts to inspect database transaction tables in PostgreSQL.</li>
+            </ul>
+            <div class="tech-badges">
+              <span>TestNG</span>
+              <span>Postman API</span>
+              <span>JMeter</span>
+              <span>PostgreSQL</span>
+              <span>Cybersecurity Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 4 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content card">
+            <div class="job-card-header">
+              <div>
+                <span class="company-tag">HighPolar Software</span>
+                <h3 class="role-title">Software Developer Intern</h3>
+              </div>
+              <div class="period-badge">Nov 2019 – Jan 2020</div>
+            </div>
+            <ul class="job-bullets">
+              <li>Assisted in front-end UI enhancements using JavaScript and Bootstrap.</li>
+              <li>Identified, logged, and squashed responsive layout alignment bugs.</li>
+            </ul>
+            <div class="tech-badges">
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+              <span>UI Debugging</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accomplishments section -->
+  <section class="accomplishments-section section-padding" id="accomplishments">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title"><span class="gradient-text">Key Accomplishments</span></h2>
+        <p class="section-subtitle">Real-world improvements I delivered through engineering QA initiatives.</p>
+      </div>
+
+      <div class="accomplishments-grid">
+        <!-- Card 1 -->
+        <div class="acc-card">
+          <div class="acc-badge">40% Coverage</div>
+          <h3 class="acc-title">Custom Test Framework</h3>
+          <p class="acc-desc">
+            Developed modular Selenium-Java and TestNG architectures featuring custom retry logic and detailed HTML reporters. Boosted overall regression test coverage by 40% and freed up hours of manual verification time.
+          </p>
+          <div class="acc-footer-tag">Selenium + Java</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="acc-card">
+          <div class="acc-badge">25% Capacity</div>
+          <h3 class="acc-title">Performance Engineering</h3>
+          <p class="acc-desc">
+            Initiated load and concurrency simulations using Apache JMeter on API endpoints. Discovered threading and database lock issues, optimizing system load resilience and supporting a 25% user transaction increase.
+          </p>
+          <div class="acc-footer-tag">JMeter + Load Testing</div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="acc-card">
+          <div class="acc-badge">Zero Escapes</div>
+          <h3 class="acc-title">Cybersecurity Validation</h3>
+          <p class="acc-desc">
+            Created end-to-end security compliance test sets for secure email gateway (SEG) systems. Validated encryption protocols, file integrity tracking, and alerts, yielding a record-breaking zero post-release defects.
+          </p>
+          <div class="acc-footer-tag">Security + System Integration</div>
+        </div>
+      </div>
+
+      <!-- Quick Education / Languages Row -->
+      <div class="extra-details-row">
+        <div class="edu-card card">
+          <h3>Education</h3>
+          <div class="edu-info">
+            <h4>B.Tech in Computer Science Engineering</h4>
+            <p class="org">Graphic Era Hill University, Uttarakhand</p>
+            <p class="period">July 2016 – August 2020</p>
+          </div>
+        </div>
+
+        <div class="lang-card card">
+          <h3>Languages</h3>
+          <div class="lang-bar-group">
+            <div class="lang-item">
+              <div class="lang-labels">
+                <span>English</span>
+                <span>Professional</span>
+              </div>
+              <div class="lang-bar"><div class="lang-bar-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="lang-item">
+              <div class="lang-labels">
+                <span>Hindi</span>
+                <span>Native</span>
+              </div>
+              <div class="lang-bar"><div class="lang-bar-fill" style="width: 100%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section section-padding" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title"><span class="gradient-text">Let's Connect</span></h2>
+        <p class="section-subtitle">Interested in collaborating or hiring? Reach out directly.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Copy Contact Card (Email) -->
+        <div class="contact-method-card" id="copy-email-btn" data-clipboard="suraj7080312901@gmail.com">
+          <div class="contact-method-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <h3>Email Address</h3>
+          <p class="contact-value">suraj7080312901@gmail.com</p>
+          <span class="click-to-copy-label">Click to copy</span>
+          <div class="copy-success-tooltip">Copied!</div>
+        </div>
+
+        <!-- Copy Contact Card (Phone) -->
+        <div class="contact-method-card" id="copy-phone-btn" data-clipboard="+917985348757">
+          <div class="contact-method-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3>Phone Number</h3>
+          <p class="contact-value">+91-7985348757</p>
+          <span class="click-to-copy-label">Click to copy</span>
+          <div class="copy-success-tooltip">Copied!</div>
+        </div>
+
+        <!-- Location Card -->
+        <div class="contact-method-card no-click">
+          <div class="contact-method-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Location</h3>
+          <p class="contact-value">Haldwani, Uttarakhand, India</p>
+          <span class="click-to-copy-label">Available for relocation</span>
+        </div>
+      </div>
+
+      <div class="contact-cta">
+        <h3>Connect on Social Media</h3>
+        <div class="cta-socials">
+          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="btn btn-secondary social-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="btn btn-secondary social-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2026 Suraj Singh. All Rights Reserved. Built with modern Vanilla CSS & JS.</p>
+        <p class="hosting-note">Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js" defer></script>
+</body>
+</html>
